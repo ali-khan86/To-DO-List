@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <main>
+        <section class="elementEntry">
+            <form id="elementEntryForm" class="elementEntryForm">
+                <label for="elementEntryForm__text" class="off-screen">Enter to do list item.</label>
+                <input type="text" id="elementEntryForm__text" class="elementEntryForm__text" placeholder="Add Item">
+                <button class="button btnAdd" aria-label="Add to do item.">+</button>
+            </form>
+        </section>
+        <section class="listContainer">
+            <div class="listTitle">
+                <h1>To Do List</h1>
+                <button class="button btnClear">Clear</button>
+               
+            </div>
+            <hr/>
+            <div class="listItems" id="listItems">
+                <div class="item">
+                    <input type="checkbox" id="1">
+                    <label for="1">eat</label>
+                </div>
+                <div class="item">
+                    <input type="checkbox" id="2">
+                    <label for="2">drink</label>
+                    </div>
+                <div class="item">
+                    <input type="checkbox" id="3">
+                    <label for="3">code</label>
+                    </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
