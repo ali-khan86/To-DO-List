@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/main.js" type="module"></script>
     <title>To Do List</title>
 </head>
 <body>
@@ -18,7 +19,7 @@
         </section>
         <section class="listContainer">
             <div class="listTitle">
-                <h1>To Do List</h1>
+                <h1 tabindex="0">To Do List</h1>
                 <button class="button btnClear">Clear</button>
                
             </div>
@@ -38,6 +39,9 @@
                     </div>
             </div>
         </section>
+        <div class="off-screen" id="screenReaderAnnoucement" aria-live="assertive">
+            
+        </div>
     </main>
 </body>
 </html>
